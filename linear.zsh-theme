@@ -121,9 +121,11 @@ prompt_dir() {
 }
 
 # PYTHON VENV
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
 prompt_virtualenv() {
   local virtualenv_path="$VIRTUAL_ENV"
-  if [[ -n $virtualenv_path && $SP_DISABLE_VIRTUAL_ENV_PROMPT != true ]]; then
+  if [[ -n $virtualenv_path ]]; then
     prompt_segment cyan black "(`basename $virtualenv_path`)"
   fi
 }
