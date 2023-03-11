@@ -7,7 +7,7 @@
  **Choose one of the following ways and install accordingly** :
 
 <details open>
-<summary>🔸 with OMZ (oh-my-zsh)</summary>
+  <summary>🔸 with OMZ (recommended)</summary>
 <br>
 
 ```
@@ -17,7 +17,7 @@ omz theme set linear
 </details>
 
 <details open>
-<summary>🔸 with ZSH (edit .zshrc)</summary>
+<summary>🔸 with ZSH (if <a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a> is not installed - edit .zshrc)</summary>
 <br>
 
 ```
@@ -30,6 +30,10 @@ echo 'source linear.zsh-theme' >> ~/.zshrc
 
 <br>
 
+🔁 Restart zsh shell
+```
+zsh
+```
 ✔️ Theme set successfully !
 
 
