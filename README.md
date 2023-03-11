@@ -6,7 +6,7 @@
 ### ▶️ Installation
  **Choose one of the following ways and install accordingly** :
 
-<details>
+<details open>
 <summary>🔸 with OMZ (oh-my-zsh)</summary>
 <br>
 
@@ -16,7 +16,7 @@ omz theme set linear
 ```
 </details>
 
-<details>
+<details open>
 <summary>🔸 with ZSH (edit .zshrc)</summary>
 <br>
 
